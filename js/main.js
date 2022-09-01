@@ -22,6 +22,7 @@ $(function($) {
         dots: true,
         centerMode: true,
         centerPadding: '20%',
+        pauseOnFocus: false,
     });
 
     //詳細表示
