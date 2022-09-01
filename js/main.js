@@ -11,7 +11,7 @@ $(function($) {
         var windowHeight = $(window).height();
         if ( scroll > targetElement - windowHeight + 200) {
             $('.fadein').css('opacity','1');
-            $('.fadein').css('transition','translateY(0)')
+            $(this).css('transition','translateY(0)')
         }
     });
 
